@@ -1,0 +1,3 @@
+<merge>
+    <include layout="@layout/activity_main_wide"/>
+</merge>

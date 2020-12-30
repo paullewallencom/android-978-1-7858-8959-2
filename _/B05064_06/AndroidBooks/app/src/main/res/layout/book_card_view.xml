@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     A CardView that contains a TextView
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/topImage"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:src="@drawable/db_programming_top_card"
+                android:elevation="16dp"
+                android:transitionName="book_image"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Improving User Interface Design with Android Fragments"
+                android:id="@+id/bookTitle"
+                android:layout_toEndOf="@+id/topImage"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:transitionName="title_text"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Book Titles -->
+  <string-array name="book_titles">
+    <item>@string/androidDbProgTitle</item>
+    <item>@string/android4NewTitle</item>
+    <item>@string/androidSysDevTitle</item>
+    <item>@string/androidEngineTitle</item>
+  </string-array>
+
+  <!-- Book Titles Shorted Versions -->
+  <string-array name="book_titles_short">
+    <item>@string/androidDbProgTitleShort</item>
+    <item>@string/android4NewTitleShort</item>
+    <item>@string/androidSysDevTitleShort</item>
+    <item>@string/androidEngineTitleShort</item>
+  </string-array>
+
+  <!-- Book Descriptions -->
+  <string-array name="book_descriptions">
+    <item>@string/androidDbProgDescription</item>
+    <item>@string/android4NewDescription</item>
+    <item>@string/androidSysDevDescription</item>
+    <item>@string/androidEngineDescription</item>
+  </string-array>
+
+</resources>

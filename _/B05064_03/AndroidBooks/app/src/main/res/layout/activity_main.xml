@@ -1,0 +1,15 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- List of Book Titles -->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.jwhh.androidbooks.BookListFragment2"
+        android:id="@+id/fragmentTitles"/>
+
+</LinearLayout>
